@@ -1,3 +1,3 @@
 class Comment < ActiveRecord::Basea
-    validates_presence_of :attr
+    validates_presence_of :comment, :message => "Hello World"
 end    
