@@ -1,3 +1,4 @@
 class Comment < ActiveRecord::Basea
-    validates_presence_of :comment, :message => "Hello World"
+    validates_presence_of :comment
+    #teste
 end    
